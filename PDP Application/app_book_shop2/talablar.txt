@@ -1,0 +1,54 @@
+  *** BOOK SHOP ***
+
+Tizmga "login" va "parol" orqali kiriladi.
+Tizim kamida bitta "SUPER ADMIN" bor holatida ishga tushurilishi kerak.
+3 ta role "USER_ROLE", "ADMIN_ROLE", "SUPER_ADMIN_ROLE" mavjud bo'lishi kerak.
+
+Tizimda REGISTER va LOGIN methodlari bo'lishi kerak.
+
+1. Agar foydalanuvchi "USER ROLE" ga ega bo'lsa,
+quyidagilarni amalga oshirishi mumkin:
+    1.1. Show active books
+    1.2. Search books
+    1.3. Buy book
+    1.4. Fill balance
+    1.5. Show balance
+    1.6. Show own sales
+    1.7. Change password
+    1.8. Logout
+
+2. Agar foydalanuvchi "ADMIN ROLE" ga ega bo'lsa,
+quyidagilarni amalga oshirishi mumkin:
+    2.1. Add book
+    2.2. Edit book
+    2.3. Delete book
+    2.4. Show all books
+    2.5. Show all users
+    2.6. Show all sales
+    2.7. Change password
+    2.8. Logout
+
+3. Agar foydalanuvchi "SUPER ADMIN" ga ega bo'lsa,
+quyidagilarni amalga oshirishi mumkin:
+    3.1. Grant ADMIN ROLE to USER
+    3.2. Revoke ADMIN ROLE from ADMIN
+    3.3. Show all users
+    3.4. Change password
+    3.5. Logout
+
+
+   IDENTIFICATION - REGISTER, SIGN UP
+   AUTHENTICATION - LOG IN, SIGN IN
+   AUTHORIZATION - ACCESS ACTIONS
+
+
+   AuthService : register(), login(); changePassword()
+
+   UserService : other actions with users
+
+
+
+
+
+
+
